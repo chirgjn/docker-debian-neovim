@@ -1,6 +1,6 @@
 FROM debian AS builder
 
-ARG NEOVIM_VERSION='v0.9.4'
+ARG NEOVIM_VERSION='v0.10.1'
 
 RUN apt-get update
 RUN apt-get -y install ninja-build gettext cmake unzip curl git clang cmake
